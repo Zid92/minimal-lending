@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.coteiner {
+	width: 1500px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: "OpenSans-Semibold";
+	src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+	font-family: "Satellite";
+	src: url(../fonts/Satellite.ttf);
+}
+
+@font-face {
+	font-family: "Flatform_Light";
+	src: url(../fonts/Flatform_Light.ttf);
+}
+
+@font-face {
+	font-family: "Satellite";
+	src: url(../fonts/Satellite.ttf);
+}
+
+/*_________HEADER________*/
+
+header {
+	display: block;
+	width: 100%;
+	height: 130px;
+}
+
+.header--logo {
+	float: left;
+	margin-left: 150px;
+	margin-top: 55px;
+}
+
+.header--logo a {
+	text-decoration: none;
+	color: #4d4d4d;
+	font-family: "Flatform_Light";
+	font-size: 40px;
+}
+
+
+nav {
+	display: inline-block;
+	float: right;
+	margin-right: 95px;
+	margin-top: 55px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #4d4d4d;
+	font-family: "OpenSans-Regular";
+	font-size: 16px;
+	margin-right: 55px;
+	
+}
+
+nav a:hover {
+	border-bottom: 1px solid #4d4d4d ;
+}
+
+/*_________HEADER END________*/
+
+
+/*_________BANER________*/
+
+.baner {
+	width: 100%;
+	height: 650px;
+	background: url("../img/baner-bg.png");
+	text-align: center;
+}
+
+.hero {
+	padding-top: 225px;
+}
+.hero--tittle {
+	display: block;
+	font-family: "Satellite";
+	font-size: 50px;
+}
+
+.hero--title-sub {
+	display: block;
+	font-family: "OpenSans-Regular";
+	font-size: 16px;
+}
+
+.baner--btn {
+	margin-top: 40px;
+}
+
+.baner--btn button {
+	font-family: "OpenSans-Bold";
+	font-size: 18px;
+	color: #fff;
+	width: 290px;
+	height: 50px;
+	text-align: center;	
+	border-radius: 25px;
+	background-color: #4d4d4d;
+
+}
+
+/*_________BANER END________*/
+
+
+/*_________SERVICES________*/
+.services {
+	width: 100%;
+	height: 320px;
+}
+
+.services--block {
+	display: inline-block;
+}
+
+.services--ul {
+	width: 325px;
+	text-align: center;
+	padding-left: 5px;
+	margin-left: 105px;
+	margin-top: 100px;
+}
+
+.services--ul li {
+	list-style-type: none;
+	padding-bottom: 40px;
+}
+
+.services--ul-li-tittle {
+	font-family: "OpenSans-Bold";
+	font-size: 22px;
+}
+
+.services--ul-li-sub {
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+	color: #727272;
+}
+/*_________SERVICES END________*/
+
+
+/*_________VIDEO________*/
+.video {
+	width: 100%;
+	height: 722px;
+	text-align: center;
+}
+
+.video--hero {
+	margin-left: 105px;
+	width: 1290px;
+	border-top: 1px solid #e7e7e7;
+	margin-top: 100px;
+	padding-top: 80px;
+}
+.video--hero-ul-li-tittle {
+	padding-bottom: 15px;
+	list-style-type: none;
+	font-family: "OpenSans-Bold";
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.video--hero-ul-li-sub {
+	padding-bottom: 80px;
+	list-style-type: none;
+	font-family: "OpenSans-Regular";
+	font-size: 16px;
+	color: #727272;
+}
+
+.video--youtube {
+	width: 685px;
+	height: 385px;
+	margin-left: 407px;
+}
+
+/*_________VIDEO END________*/
+
+/*_________RECENT  WORK________*/
+.recentwork {
+	margin-left: 150px;
+}
+
+.recentwork--ul-li {
+	display: inline-block;
+}
+
+.recentwork--ul-li:hover .recentwork--ul-li-span-link {
+	opacity: 1;
+}
+
+.recentwork--ul-li {
+	width: 260px;
+	height: 320px;
+	margin-left: 51px;
+	background: url("../img/recentwork--ul-li-blokc-bg.png");
+}
+
+.recentwork--ul-li:first-child {
+	margin-left: 0px;
+}
+
+.recentwork--ul-li-span-link {
+	margin-top: 255px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family: "OpenSans-Semibold";
+	font-size: 16px;
+	background-color: #575757;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	color: #fff;
+	opacity: 0;
+}
+
+/*_________RECENT  WORK END________*/
+
+
+/*_________JOIN BAR________*/
+
+.joinbar {
+	margin-top: 100px;
+	width: 1500px;
+	height: 360px;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+.joinbar--ul-li-tittle {
+	padding-top: 100px;
+	list-style-type: none;
+	font-family: "OpenSans-Semibold";
+	font-size: 30px;
+	color: #4d4d4d;
+	text-transform: uppercase;
+	padding-bottom: 27px;
+}
+
+.joinbar--ul-li-sub {
+	list-style-type: none;
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+	color: #838383;
+	padding-bottom: 51px;
+}
+
+.joinbar--ul-li {
+	list-style-type: none;
+}
+
+.joinbar--ul-li-btn {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 45px;
+	border-color: #4d4d4d;
+	color: #4d4d4d;
+	background: 0 0; 
+}
+/*_________JION BAR END________*/
+
+/*_________SOC________*/
+.soc {
+	margin-top: 100px;
+	width: 100%;
+	height: 170px;
+	text-align: center;
+}
+
+.soc--ul-li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.soc--ul-li:first-child {
+	margin-left: 0px;
+}
+
+.soc--ul-li-a-img-f:hover {
+	background: url(../img/soc--ul-li-a-img-f-bg.png);
+}
+
+.soc--ul-li-a-img-t:hover {
+	background: url(../img/soc--ul-li-a-img-t-bg.png);
+}
+
+.soc--ul-li-a-img-d:hover {
+	background: url(../img/soc--ul-li-a-img-d-bg.png);
+}
+
+.soc--ul-li-a-im-g:hover {
+	background: url(../img/soc--ul-li-a-img-g-bg.png);
+}
+/*_________SOC END________*/
+
+/*_________FOOTER________*/
+footer {
+	width: 100%;
+	height: 350px;
+	background-color: #3b3b3b;
+}
+
+.footer--ul-full {
+	margin-left: 150px;
+	padding-top: 100px;
+}
+
+.footer--ul-full-li {
+	list-style-type: none;
+	display: inline-block;
+	width: 24%;
+	vertical-align: top;
+}
+
+.footer--ul-li-tittle {
+	color: #fff;
+	margin-bottom: 40px;
+	list-style-type: none;
+	font-family: "OpenSans-Semibold";
+	font-size: 18px;
+}
+
+.footer--ul-li-sub {
+	line-height: 1.5;
+	color: #d0d0d0;
+	list-style-type: none;
+	font-family: "OpenSans-Semibold";
+	font-size: 14px;
+}
+
+.footer--ul-li-link {
+	font-family: "OpenSans-Semibold";
+	font-size: 14px;
+	color: #949494;
+	padding-top: 10px;
+	list-style-type: none;
+}
+.footer--ul-li-link a {
+	padding-top: 20px;
+	font-family: "OpenSans-Semibold";
+	font-size: 14px;
+	color: #949494;
+}
+/*_________FOOTER END________*/
